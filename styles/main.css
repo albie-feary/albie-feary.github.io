@@ -16,7 +16,7 @@ h1, h3 {
 }
 
 ol {
-  text-align: center;
+  align: center;
 }
 
 h3 {
@@ -31,6 +31,4 @@ a {
 
 p {
   color: #666;
-
-
 }
