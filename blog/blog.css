@@ -2,18 +2,14 @@ html {
   overflow-y: auto;
   background: #faf3e6;
   background-size: 22em;
+  text-align: center;
+}
 
 body {
-	color: #3f3d3a;
-	background-color: #fff;
-	font-family: "refrigerator-deluxe",sans-serif;
-	font-size: 14px;
-	font-weight: 500;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	line-height: 1.7em;
-  overflow: hidden;
+  font-family: "refrigerator-deluxe",sans-serif;
+  color: #3f3d3a;
   text-align: center;
+
 }
 
 

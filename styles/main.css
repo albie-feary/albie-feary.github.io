@@ -8,10 +8,14 @@ html {
 body {
   font-family: "refrigerator-deluxe",sans-serif;
   color: #3f3d3a;
-  overflow: hidden;
+  text-align: center;
 
 }
 h1, h3 {
+  color: #444;
+}
+
+h3 {
   color: #444;
 
 }
@@ -23,6 +27,6 @@ a {
 
 p {
   color: #666;
-  
+
 
 }
