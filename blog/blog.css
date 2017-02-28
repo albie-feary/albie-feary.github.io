@@ -1,5 +1,10 @@
+html {
+  overflow-y: auto;
+  background: #faf3e6;
+  background-size: 22em;
+
 body {
-	color: #666;
+	color: #3f3d3a;
 	background-color: #fff;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 14px;
@@ -7,16 +12,23 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	line-height: 1.7em;
+  overflow: hidden;
 }
 
-h1, h2, h3 {
+
+h1, h2, h3, h4 {
   color: #444;
   text-align: center;
 
 }
 
+h5 {
+  color: #efa41a
+  font-weight: bolder;
+}
+
 a {
-  color: orange;
+  color: #efa41a;
 }
 
 p {
