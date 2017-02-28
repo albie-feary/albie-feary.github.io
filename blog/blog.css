@@ -6,13 +6,14 @@ html {
 body {
 	color: #3f3d3a;
 	background-color: #fff;
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "refrigerator-deluxe",sans-serif;
 	font-size: 14px;
 	font-weight: 500;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	line-height: 1.7em;
   overflow: hidden;
+  text-align: center;
 }
 
 
@@ -25,6 +26,7 @@ h1, h2, h3, h4 {
 h5 {
   color: #efa41a
   font-weight: bolder;
+  text-align: center;
 }
 
 a {

@@ -2,23 +2,27 @@ html {
   overflow-y: auto;
   background: #faf3e6;
   background-size: 22em;
+  text-align: center;
 }
 
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "refrigerator-deluxe",sans-serif;
   color: #3f3d3a;
   overflow: hidden;
 
 }
-h1, h2, h3 {
+h1, h3 {
   color: #444;
-  text-align: center;
+
 }
 
 a {
   color: #efa41a;
+  font-family: "refrigerator-deluxe",sans-serif;
 }
 
 p {
   color: #666;
+  
+
 }
