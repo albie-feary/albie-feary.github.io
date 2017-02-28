@@ -1,7 +1,14 @@
 body {
-  background: A1D490;
-  font-family:verdana ;
+	color: #666;
+	background-color: #fff;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.7em;
 }
+
 
 h1, h2, h3 {
   color: #444;
@@ -12,7 +19,5 @@ a {
 }
 
 p {
-  background-color: #666;
-  color: white
-
+  color: #666;
 }
