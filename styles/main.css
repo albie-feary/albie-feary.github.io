@@ -8,17 +8,15 @@ html {
 body {
   font-family: font-family: 'Inconsolata', monospace;
   color: #3f3d3a;
-
+  text-align: left;
 }
+
 h1, h3 {
   color: #444;
 }
 
-
-
 h3 {
   color: #444;
-
 }
 
 a {
