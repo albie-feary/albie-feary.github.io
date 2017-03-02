@@ -2,22 +2,19 @@ html {
   overflow-y: auto;
   background: #faf3e6;
   background-size: 22em;
-  text-align: center;
+  text-align: left;
 }
 
 body {
   font-family: font-family: 'Inconsolata', monospace;
   color: #3f3d3a;
-  text-align: center;
 
 }
 h1, h3 {
   color: #444;
 }
 
-ol {
-  align: center;
-}
+
 
 h3 {
   color: #444;

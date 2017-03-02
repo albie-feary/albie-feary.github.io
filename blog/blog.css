@@ -2,27 +2,24 @@ html {
   overflow-y: auto;
   background: #faf3e6;
   background-size: 22em;
-  text-align: center;
+  text-align: left;
 }
 
 body {
   font-family: font-family: 'Raleway', sans-serif;
   color: #3f3d3a;
-  text-align: center;
 
 }
 
 
 h1, h2, h3, h4 {
   color: #444;
-  text-align: center;
 
 }
 
 h5 {
   color: #efa41a
   font-weight: bolder;
-  text-align: center;
 }
 
 a {
@@ -31,5 +28,4 @@ a {
 
 p {
   color: #666;
-  text-align: center;
 }
