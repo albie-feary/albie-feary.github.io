@@ -28,3 +28,14 @@ a {
 p {
   color: #666;
 }
+
+#model{
+  display: -webkit-flex;
+  margin-left: 1.5%;
+  margin-bottom: 5%;
+}
+
+/*box model picture margin*/
+#margin{
+  margin-left: 2%;
+}
