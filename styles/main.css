@@ -18,6 +18,11 @@ body {
   padding: 4em 7em;
 }
 
+.home {
+  padding-top: 2em
+  height: calc(100vh -50px);
+}
+
 h1, h2, h3, h4 {
   color: #202329;
   font-family: 'Inconsolata', monospace;
@@ -28,11 +33,6 @@ h1 {
   font-weight: 900;
   line-height: 72px;
   margin-bottom: 48px;
-}
-
-.home {
-  padding-top: 2em
-  height: calc(100vh -50px);
 }
 
 .home h1 {
