@@ -1,29 +1,74 @@
 html {
-  overflow-y: auto;
-  background: #faf3e6;
-  background-size: 22em;
-  text-align: left;
+  margin-left: calc(100vw - 100%)
 }
 
 body {
-  font-family: font-family: 'Inconsolata', monospace;
   color: #3f3d3a;
-  text-align: left;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-h1, h3 {
-  color: #444;
+.container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  background: #e9ece5 repeat
+  padding: 4em 7em;
 }
 
-h3 {
-  color: #444;
+h1, h2, h3, h4 {
+  color: #202329;
+  font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 72px;
+  margin-bottom: 48px;
+}
+
+.home {
+  padding-top: 2em
+  height: calc(100vh -50px);
+}
+
+.home h1 {
+  margin-bottom: 0;
+}
+
+h2{
+  color: rgba(255, 152, 0, 0.85);
+  margin: 0;
+  padding-bottom: 1.5em;
+  padding-top: .5em;
+  font-weight:200;
+}
+
+p, dl {
+  color: #4e5361
+  font-family: "refrigerator-deluxe",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 36px;
+  text-align: justify;
 }
 
 a {
   color: #efa41a;
-  font-family: "refrigerator-deluxe",sans-serif;
+  border-bottom: 2px solid #e8cc75;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+
 }
 
-p {
-  color: #666;
+
+
+
+  div {
+    display: block;
 }
