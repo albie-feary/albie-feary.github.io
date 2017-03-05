@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Technical Blog 2 </title>
+  <title>HTML, CSS &amp; The DOM </title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway" rel="stylesheet">
 </head>
+
 <body>
-  <h1>Technical blog (P1)</h1>
-  <h4>4th Mar 17</h4>
-  <br>
+  <div class="container blog">
+    <h1>Little Green Sailor</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li><a href="c1-reflection-blog.html">Reflections</a></li>
+        <li><a href="c1-time-and-habits-blog.html">Time and habits</a>
+      </li>
+      <li><a class="active" href="t2-html-css-dom-p1.html">HTML, CSS &amp; The DOM</a>
+      </li>
+      <li><a href="t2-html-css-dom-p2.html">HTML, CSS &amp; The DOM P.2</a>
+      </li>
+      <li><a href="2-emotional-intelligence.html">Emotional Intelligence</a>
+      </li>
+    </ul>
+  </nav>
+
+  <h1>HTML, CSS &amp; The DOM</h1>
+  <img class="img-boats" src="../img-boats.jpg" alt="photograph of sailboats"/>
   <h2>The Growing Wishlist</h2>
-  <ol>
-    <li>
-      Clean looking site
-    </li>
-    <li>
-      Clean looking CSS and HTML
-    </li>
-    <li>
-      Navigation bar
-    </li>
-    <li>
-      An image or two that links through to blog entries
-    </li>
-  </ol>
+  <ul>
+    <li>Clean looking site</li>
+    <li>Clean looking CSS and HTML</li>
+    <li>Navigation bar</li>
+    <li>An image or two that links through to blog entries</li>
+  </ul>
     <br>
   <h2>HTML, CSS and the DOM</h2>
       <p>
@@ -42,11 +54,11 @@
     <br>
       <h2>What is the Box Model? </h2>
       <div id="Box-model">
-      <img src="half-width-image.jpg" alt="Image of box model" style="width:30%">
-      <p class="margin">
-          The box model is a design tecnhique to breakdown space within and outside of the created boxes.The size of the element is equal to the sum of the border, padding and content of the box.
-        </p>
-          <br>
+      <img class="half-width-image" src="half-width-image.jpg" alt="Image of box model"/>
+      <p>
+        The box model is a design tecnhique to breakdown space within and outside of the created boxes.The size of the element is equal to the sum of the border, padding and content of the box.
+      </p>
+        <br>
         <p>
           Think of it as the different CSS layers wrapped around an HMTL element.
           <ul>
@@ -56,9 +68,7 @@
             <li>Margin is what clears the area around the border.</li>
           </ul>
         </p>
+        <div id="footer"></div>
       </div>
-        <ul>
-          <li><a href="https://albie-feary.github.io/">Home</a> </li>
-        </ul>
 </body>
 </html>
