@@ -1,5 +1,15 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  background: #e9ece5 repeat
+  padding: 4em 7em;
+}
+
+
 .img-boats {
   border-radius: 30%;
   height: 3em;
   margin-top: 1em;
   margin-bottom: 2em;
+}
