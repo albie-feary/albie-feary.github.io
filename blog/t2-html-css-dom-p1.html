@@ -3,43 +3,56 @@
 <head>
   <title>HTML, CSS &amp; The DOM </title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway" rel="stylesheet">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="styles/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 
 <body>
-  <div class="container blog">
-    <h1>Little Green Sailor</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="../index.html">Home</a>
-        </li>
-        <li><a href="c1-reflection-blog.html">Reflections</a></li>
-        <li><a href="c1-time-and-habits-blog.html">Time and habits</a>
-      </li>
-      <li><a class="active" href="t2-html-css-dom-p1.html">HTML, CSS &amp; The DOM</a>
-      </li>
-      <li><a href="t2-html-css-dom-p2.html">HTML, CSS &amp; The DOM P.2</a>
-      </li>
-      <li><a href="2-emotional-intelligence.html">Emotional Intelligence</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="container-fluid">
+    <div class="row bar navbar">
+      <div class="col-xs-6 nav--primary"><a href="https://albie-feary.github.io/index.html"><img class="img-boats" src="img-boats.jpg" alt="photograph of sailboats"/></a></div>
+      <div class="col-xs-6 nav--primary text-right">
+        <div  data-toggle="collapse" href="#navCollapse" aria-expanded="false" aria-controls="navCollapse"><p><a href="#"><strong>+</strong></a></p></div>
+        <div class="collapse" id="navCollapse">
+          <a href="https://albie-feary.github.io/blog/c1-reflection-blog.html">Reflections</a><br>
+          <a href="https://albie-feary.github.io/blog/c1-time-and-habits-blog.html">Time and Habits</a><br>
+          <a href="https://albie-feary.github.io/blog/t2-html-css-dom-p1.html">HTML, CSS & The DOM</a><br>
+          <a href="https://albie-feary.github.io/blog/t2-html-css-dom-p2.html">HTML, CSS, DOM P.2</a><br>
+          <a href="https://albie-feary.github.io/blog/2-emotional-intelligence.html">Emotional Intelligence</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <h1>HTML, CSS &amp; The DOM</h1>
-  <img class="img-boats" src="../img-boats.jpg" alt="photograph of sailboats"/>
-  <h2>The Growing Wishlist</h2>
+  <div class="container">
+    <div class="row">
+      <div class="six columns">
+    <h1>BLOG</h1>
+    <h2>HTML, CSS &amp; The DOM</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="six columns">
+  <h3>The Growing Wishlist</h3>
   <ul>
     <li>Color changing background like <a href="http://www.webstock.org.nz/16/">Webstock's</a>2016 homepage</li>
     <li>Clean CSS and HTML</li>
     <li>A more scalable navigation bar, drop down, clean.</li>
     <li>Floating links</li>
     <li>Boxify for more enjoyable, deliberate site navigation</li>
-
   </ul>
-    <br>
-  <h2>HTML, CSS and the DOM</h2>
+</div>
+</div>
+
+<div class="row">
+  <div class="six columns">
+  <h3>HTML, CSS and the DOM</h3>
       <p>
         HTML is the language of the web and can be thought of as the building blocks of a website. Just like the foundations and walls of a house, it is the structure.
       <p>
@@ -47,14 +60,21 @@
         <p>
           The DOM is where HMTL is turned into a tree-like structure (in that it has branches) and so creates functionality. Think of it as the architectural plans, how everyting connnects together.
         </p>
-      <br>
-    <h2>Boxifying Design</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="six columns">
+    <h3>Boxifying Design</h3>
       <p>
         Boxifying desgin is a desgin technique of viewing a webpage and compartmentalising it. Creates for better page layout and better user experience.
       </p>
-      <br>
-    <br>
-      <h2>What is the Box Model? </h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="six columns">
+      <h3>What is the Box Model? </h3>
       <img class="half-width-image" src="../half-width-image.jpg" alt="Image of box model"/>
       <p>
         The box model is a design tecnhique to breakdown space within and outside of the created boxes.The size of the element is equal to the sum of the border, padding and content of the box.
@@ -66,8 +86,13 @@
         <p>The Padding is the space between the content and the border box.</p>
         <p>Border is the border around the box.</p>
         <p>Margin is what clears the area around the border.</p>
+      </div>
+    </div>
 
-      <div id="footer"></div>
+      <div class="footer"></div>
     </div>
 </body>
+<!-- Scripts (JQuery and Bootstrap) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </html>
