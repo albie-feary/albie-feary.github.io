@@ -60,7 +60,7 @@ h1{
   font-weight: 800;
 }
 
-h2{
+h2, h3, h4 {
   color: #141529
 }
 
@@ -71,6 +71,10 @@ strong {
 
 p{
   font-size: 1em;
+}
+
+a {
+  color: #b3a577
 }
 
 . footer{
