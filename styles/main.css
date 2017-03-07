@@ -1,3 +1,9 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
 .container {
   width: 70%;
   margin: 0 auto;
@@ -12,4 +18,20 @@
   height: 6em;
   margin-top: 1em;
   margin-bottom: 2em;
+}
+
+
+h1{
+  color: #b3a577;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+h2{
+  color: #141529
+}
+
+strong {
+  font-weight: 700;
+  color: #b3a577;
 }
