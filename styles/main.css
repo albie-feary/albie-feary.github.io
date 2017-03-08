@@ -42,7 +42,6 @@ body{
   width: 70%;
   margin: 0 auto;
   text-align: left;
-  background:
   padding: 4em 7em;
 }
 
@@ -55,7 +54,6 @@ body{
 }
 
 .half-width-image {
-  .half-width-image {
   width: 50%;
   margin-top: 1em;
   margin-bottom: 2em;
@@ -101,4 +99,9 @@ li {
 
 .quote span {
   display: block;
+}
+
+.wireframe-image {
+  max-width: 100%;
+  text-align: center;
 }
