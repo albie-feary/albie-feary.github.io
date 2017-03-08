@@ -84,14 +84,8 @@ a {
   color: #b3a577
 }
 
-.footer {
-  margin: 0 auto;
-  width: 20%;
-  margin-top: 4em;
-  border-top: 2em;
-  border-top-color: solid #b3a577
-  text-align: center;
-}
+
+
 
 li {
   list-style: none;
