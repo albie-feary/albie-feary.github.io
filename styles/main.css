@@ -106,5 +106,5 @@ li {
 .wireframe-image {
   max-width: 100%;
   text-align: center;
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
