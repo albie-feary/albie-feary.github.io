@@ -75,8 +75,12 @@ h1 {
     font-weight: 800;
 }
 
-h2, h3, h4, h5 {
+h2, h4, h5 {
     color: #141529
+}
+
+h3{
+  color: #b3a577;
 }
 
 strong {
